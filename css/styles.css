@@ -24,10 +24,12 @@
     padding: 0 18px;
 }
 .nav-link {
-    color: rgb(214, 214, 214) !important;
+    color: rgb(243, 243, 243) !important;
 }
 .nav-link:hover {
     color: rgb(255, 255, 255) !important;
+    transform: scale(1.1);
+    transition: 200ms linear;
 }
 .h1-def-font {
     font-family: 'Montserrat-Black', sans-serif;
@@ -240,4 +242,9 @@ div .fa-2x:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 350ms linear;
+}
+.copyR-text {
+    padding: 4%;
+    font-family: 'Montserrat-light', sans-serif;
+    color: rgb(0, 0, 0);
 }
